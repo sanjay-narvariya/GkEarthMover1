@@ -1,0 +1,10 @@
+.Enquiry-Message{
+    height:50px;
+    width:300px;
+    overflow: auto;
+
+}
+
+.Enquiry-Message::-webkit-scrollbar{
+    display: none;
+}

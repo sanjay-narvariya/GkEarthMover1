@@ -1,0 +1,146 @@
+/* Background and Main Container */
+.boostbg {
+  background: var(--bg-gray);
+  padding: 2rem 0;
+}
+
+.testimonial-full-data {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+/* Heading Styles */
+.boost-title h4 {
+  color: var(--dark-yellow);
+  font-weight: 700;
+  letter-spacing: 1px;text-align: center;
+}
+
+.boost-subtitle h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 2.5rem;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.boost-subtitle h1 span {
+  color: var(--dark-yellow);
+}
+
+/* Testimonial Card Styles */
+.testimonial-bg {
+  background: linear-gradient(90deg, #eff0e0 0%, #e1e9f7 60%);
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial-data p {
+  letter-spacing: 1px;
+  color: black;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: justify;
+}
+
+/* Profile Section */
+.testimonial-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.testimonial-img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Name Styling */
+.testimonial-name h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.testimonial-name h5 {
+  font-size: 1rem;
+  color: gray;
+  margin: 0;
+}
+
+/* Responsive Styles */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .boost-subtitle h1 {
+      font-size: 2rem;
+      width: 70%;
+  }
+
+  .testimonial-bg {
+      padding: 1.5rem;
+  }
+
+  .testimonial-data p {
+      font-size: 1.1rem;
+  }
+
+  .testimonial-img img {
+      width: 50px;
+      height: 50px;
+  }
+
+  .testimonial-name h4 {
+      font-size: 1.1rem;
+  }
+
+  .testimonial-name h5 {
+      font-size: 0.9rem;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 576px) {
+  .boost-subtitle h1 {
+      font-size: 1.8rem;
+      width: 90%;
+  }
+
+  .testimonial-full-data {
+      margin-top: 1.5rem !important;
+      margin-bottom: 1.5rem !important;
+  }
+
+  .testimonial-bg {
+      padding: 1rem;
+      margin-top: 1rem;
+  }
+
+  .testimonial-data p {
+      font-size: 1rem;
+  }
+
+  .testimonial-img img {
+      width: 45px;
+      height: 45px;
+  }
+
+  .testimonial-name h4 {
+      font-size: 1rem;
+  }
+
+  .testimonial-name h5 {
+      font-size: 0.8rem;
+  }
+}
